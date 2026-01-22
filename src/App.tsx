@@ -7,9 +7,9 @@ const highlights = [
 ];
 
 const services = [
-  "Financial settlements and asset protection",
+  "Financial settlements & asset protection",
   "Prenuptial agreement",
-  "Property purchase and sale",
+  "Property purchase & sale",
   "Day to day handling of your families legal needs"
 ];
 
@@ -25,9 +25,6 @@ export default function App() {
               <p className="tag">Family Solicitors</p>
             </div>
           </div>
-          <a className="nav-contact" href="mailto:Rupert@Goldsteinlaw.uk">
-            Contact Rupert
-          </a>
         </nav>
 
         <div className="hero-content">
@@ -35,8 +32,8 @@ export default function App() {
             <p className="eyebrow">London-based family law specialists</p>
             <h1>Helping families navigate change with confidence.</h1>
             <p className="lead">
-              Goldstein Law is led by Rupert Goldstein and specialises in managing
-              families law needs with discretion, clarity, and unwavering support.
+              Goldstein Law is led by Rupert Goldstein & specialises in managing
+              families law needs with discretion, clarity, & unwavering support.
             </p>
             <div className="highlights">
               {highlights.map((item) => (
@@ -71,7 +68,7 @@ export default function App() {
               <h3>{service}</h3>
               <p>
                 A tailored strategy led by Rupert Goldstein to protect your
-                interests and future.
+                interests, family & future.
               </p>
             </div>
           ))}
@@ -82,13 +79,10 @@ export default function App() {
         <div>
           <h2>Speak with a solicitor who understands your family.</h2>
           <p>
-            Book a confidential consultation today and let Goldstein Law guide
+            Book a confidential consultation today & let Goldstein Law guide
             you forward.
           </p>
         </div>
-        <a className="primary" href="mailto:Rupert@Goldsteinlaw.uk">
-          Contact Goldstein Law
-        </a>
       </section>
 
       <footer className="footer">
