@@ -1,9 +1,9 @@
 import logo from "./assets/goldstein-logo.svg";
 
 const highlights = [
-  "Family law guidance tailored to your circumstances",
-  "Clear, compassionate advice through every stage",
-  "Trusted representation for mediation and court preparation",
+  "Everyday legal guidance for the whole family",
+  "A trusted advisor embedded in your day-to-day decisions",
+  "Long-term support for purchases, finances, and personal matters",
 ];
 
 const services = [
@@ -29,8 +29,8 @@ export default function App() {
 
         <div className="hero-content">
           <div className="hero-text">
-            <p className="eyebrow">London-based family law specialists</p>
-            <h1>Helping families navigate change with confidence.</h1>
+            <p className="eyebrow">London-based family legal advisors</p>
+            <h1>Bespoke, everyday legal support for modern families.</h1>
             <p className="lead">
               Goldstein Law is led by Rupert Goldstein & specialises in managing
               families law needs with discretion, clarity, & unwavering support.
@@ -54,8 +54,8 @@ export default function App() {
               Start your enquiry
             </a>
             <p className="card-note">
-              Goldstein Law is a boutique practice dedicated to bespoke family
-              solutions.
+              Goldstein Law is a boutique practice dedicated to long-term,
+              bespoke family support.
             </p>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function App() {
 
       <section className="cta">
         <div>
-          <h2>Speak with a solicitor who understands your family.</h2>
+          <h2>Speak with a solicitor who stays close to your family.</h2>
           <p>
             Book a confidential consultation today & let Goldstein Law guide
             you forward.
