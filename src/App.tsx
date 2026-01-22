@@ -7,71 +7,62 @@ const highlights = [
 ];
 
 const services = [
-  "Financial settlements & asset protection",
-  "Prenuptial agreement",
-  "Property purchase & sale",
-  "Day to day handling of your families legal needs"
+  {
+    title: "Financial settlements & asset protection",
+    description:
+      "Bespoke planning led by Rupert Goldstein to safeguard your interests, family, and future wealth.",
+  },
+  {
+    title: "Prenuptial agreement",
+    description:
+      "Thoughtful, tailored counsel from Rupert Goldstein to protect your interests, family, and future together.",
+  },
+  {
+    title: "Property purchase & sale",
+    description:
+      "A dedicated strategy from Rupert Goldstein to protect your interests, family, and future with every move.",
+  },
+  {
+    title: "Day to day handling of your families' legal needs",
+    description:
+      "Consistent, tailored guidance from Rupert Goldstein to protect your interests, family, and future every day.",
+  },
 ];
 
 export default function App() {
   return (
     <div className="page">
-      <header className="hero">
-        <nav className="nav">
-          <div className="logo-lockup">
-            <img src={logo} alt="Goldstein Law logo" className="logo" />
-            <div>
-              <p className="brand">Goldstein Law</p>
-              <p className="tag">Family Solicitors</p>
-            </div>
-          </div>
-        </nav>
+      <a className="skip-link" href="#main">
+        Skip to main content
+      </a>
 
-        <div className="hero-content">
-          <div className="hero-text">
-            <p className="eyebrow">London-based family legal advisors</p>
-            <h1>Bespoke, everyday legal support for modern families.</h1>
-            <p className="lead">
-              Goldstein Law is led by Rupert Goldstein & specialises in managing
-              families law needs with discretion, clarity, & unwavering support.
+      <main id="main">
+        <section className="services" id="services">
+          <div className="section-heading">
+            <h2>Everyday legal services crafted around you</h2>
+            <p>
+              We offer ongoing guidance across the full range of family matters.
+              From purchases and finances to day-to-day legal questions, Goldstein
+              Law stays alongside your family for the long term.
             </p>
-            <div className="highlights">
-              {highlights.map((item) => (
-                <div className="highlight" key={item}>
-                  <span className="dot" />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
           </div>
-                    </div>
-      </header>
+          <div className="service-grid" role="list">
+            {services.map((service) => (
+              <article className="service-card" role="listitem" key={service.title}>
+                <div className="service-icon" aria-hidden="true">
+                  ✨
+                </div>
+                <div>
+                  <h3>{service.title}</h3>
+                  <p>{service.description}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      </main>
 
-      <section className="services" id="services">
-        <div className="service-grid">
-          {services.map((service) => (
-            <div className="service-card" key={service}>
-              <h3>{service}</h3>
-              <p>
-                A tailored strategy led by Rupert Goldstein to protect your
-                interests, family & future.
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="cta">
-        <div>
-          <h2>Speak with a solicitor who stays close to your family.</h2>
-          <p>
-            Book a confidential consultation today & let Goldstein Law guide
-            you forward.
-          </p>
-        </div>
-      </section>
-
-      <footer className="footer">
+      <footer className="footer" id="footer">
         <p>Goldstein Law · Family Solicitors · Owned by Rupert Goldstein</p>
       </footer>
     </div>
