@@ -44,21 +44,7 @@ export default function App() {
               ))}
             </div>
           </div>
-          <div className="hero-card">
-            <h2>Contact Rupert Goldstein</h2>
-            <div className="card-detail">
-              <span>Direct email</span>
-              <strong>Rupert@Goldsteinlaw.uk</strong>
-            </div>
-            <a className="primary" href="mailto:Rupert@Goldsteinlaw.uk">
-              Start your enquiry
-            </a>
-            <p className="card-note">
-              Goldstein Law is a boutique practice dedicated to long-term,
-              bespoke family support.
-            </p>
-          </div>
-        </div>
+                    </div>
       </header>
 
       <section className="services" id="services">
