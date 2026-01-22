@@ -7,10 +7,10 @@ const highlights = [
 ];
 
 const services = [
-  "Divorce & separation support",
-  "Child arrangements and custody planning",
   "Financial settlements and asset protection",
-  "Prenuptial and postnuptial agreements",
+  "Prenuptial agreement",
+  "Property purchase and sale",
+  "Day to day handling of your families legal needs"
 ];
 
 export default function App() {
@@ -38,14 +38,6 @@ export default function App() {
               Goldstein Law is led by Rupert Goldstein and specialises in managing
               families law needs with discretion, clarity, and unwavering support.
             </p>
-            <div className="hero-actions">
-              <a className="primary" href="mailto:Rupert@Goldsteinlaw.uk">
-                Email Goldstein Law
-              </a>
-              <a className="secondary" href="#services">
-                View services
-              </a>
-            </div>
             <div className="highlights">
               {highlights.map((item) => (
                 <div className="highlight" key={item}>
@@ -57,10 +49,6 @@ export default function App() {
           </div>
           <div className="hero-card">
             <h2>Contact Rupert Goldstein</h2>
-            <p>
-              Reach out for a confidential consultation. We respond promptly and
-              prioritize the wellbeing of your family.
-            </p>
             <div className="card-detail">
               <span>Direct email</span>
               <strong>Rupert@Goldsteinlaw.uk</strong>
@@ -77,14 +65,6 @@ export default function App() {
       </header>
 
       <section className="services" id="services">
-        <div className="section-heading">
-          <h2>Family law services crafted around you</h2>
-          <p>
-            We offer focused guidance across every stage of family law. From
-            amicable agreements to complex proceedings, Goldstein Law ensures you
-            are prepared and supported.
-          </p>
-        </div>
         <div className="service-grid">
           {services.map((service) => (
             <div className="service-card" key={service}>
@@ -113,7 +93,6 @@ export default function App() {
 
       <footer className="footer">
         <p>Goldstein Law · Family Solicitors · Owned by Rupert Goldstein</p>
-        <a href="mailto:Rupert@Goldsteinlaw.uk">Rupert@Goldsteinlaw.uk</a>
       </footer>
     </div>
   );
