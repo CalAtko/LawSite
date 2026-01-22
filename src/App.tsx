@@ -83,18 +83,6 @@ export default function App() {
                 for the moments that matter most.
               </p>
             </div>
-            <div className="hero-panel-detail">
-              <span>Direct email</span>
-              <strong>Rupert@Goldsteinlaw.uk</strong>
-            </div>
-            <div className="hero-panel-actions">
-              <a className="primary" href="mailto:Rupert@Goldsteinlaw.uk">
-                Start your enquiry
-              </a>
-              <a className="secondary" href="#footer">
-                See details
-              </a>
-            </div>
           </div>
         </div>
       </header>
@@ -140,7 +128,6 @@ export default function App() {
 
       <footer className="footer" id="footer">
         <p>Goldstein Law · Family Solicitors · Owned by Rupert Goldstein</p>
-        <a href="mailto:Rupert@Goldsteinlaw.uk">Rupert@Goldsteinlaw.uk</a>
       </footer>
     </div>
   );
