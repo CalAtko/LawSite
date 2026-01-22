@@ -1,16 +1,16 @@
 import logo from "./assets/goldstein-logo.svg";
 
 const highlights = [
-  "Family law guidance tailored to your circumstances",
-  "Clear, compassionate advice through every stage",
-  "Trusted representation for mediation and court preparation",
+  "Everyday legal guidance for the whole family",
+  "A trusted advisor embedded in your day-to-day decisions",
+  "Long-term support for purchases, finances, and personal matters",
 ];
 
 const services = [
-  "Divorce & separation support",
-  "Child arrangements and custody planning",
-  "Financial settlements and asset protection",
-  "Prenuptial and postnuptial agreements",
+  "Property purchases and household agreements",
+  "Family finances, trusts, and asset planning",
+  "General legal support for daily family decisions",
+  "Ongoing counsel for life changes and milestones",
 ];
 
 export default function App() {
@@ -32,11 +32,12 @@ export default function App() {
 
         <div className="hero-content">
           <div className="hero-text">
-            <p className="eyebrow">London-based family law specialists</p>
-            <h1>Helping families navigate change with confidence.</h1>
+            <p className="eyebrow">London-based family legal advisors</p>
+            <h1>Bespoke, everyday legal support for modern families.</h1>
             <p className="lead">
-              Goldstein Law is led by Rupert Goldstein and specialises in managing
-              families law needs with discretion, clarity, and unwavering support.
+              Goldstein Law is led by Rupert Goldstein and partners with families
+              on their day-to-day legal needs, offering discreet, consistent
+              guidance that fits the rhythm of family life.
             </p>
             <div className="hero-actions">
               <a className="primary" href="mailto:Rupert@Goldsteinlaw.uk">
@@ -58,8 +59,9 @@ export default function App() {
           <div className="hero-card">
             <h2>Contact Rupert Goldstein</h2>
             <p>
-              Reach out for a confidential consultation. We respond promptly and
-              prioritize the wellbeing of your family.
+              Reach out for a confidential consultation. We build lasting
+              relationships and provide steady counsel for everyday family
+              decisions.
             </p>
             <div className="card-detail">
               <span>Direct email</span>
@@ -69,8 +71,8 @@ export default function App() {
               Start your enquiry
             </a>
             <p className="card-note">
-              Goldstein Law is a boutique practice dedicated to bespoke family
-              solutions.
+              Goldstein Law is a boutique practice dedicated to long-term,
+              bespoke family support.
             </p>
           </div>
         </div>
@@ -78,11 +80,11 @@ export default function App() {
 
       <section className="services" id="services">
         <div className="section-heading">
-          <h2>Family law services crafted around you</h2>
+          <h2>Everyday legal services crafted around you</h2>
           <p>
-            We offer focused guidance across every stage of family law. From
-            amicable agreements to complex proceedings, Goldstein Law ensures you
-            are prepared and supported.
+            We offer ongoing guidance across the full range of family matters.
+            From purchases and finances to day-to-day legal questions, Goldstein
+            Law stays alongside your family for the long term.
           </p>
         </div>
         <div className="service-grid">
@@ -90,8 +92,8 @@ export default function App() {
             <div className="service-card" key={service}>
               <h3>{service}</h3>
               <p>
-                A tailored strategy led by Rupert Goldstein to protect your
-                interests and future.
+                A tailored plan led by Rupert Goldstein to support your family’s
+                daily decisions and long-term goals.
               </p>
             </div>
           ))}
@@ -100,10 +102,10 @@ export default function App() {
 
       <section className="cta">
         <div>
-          <h2>Speak with a solicitor who understands your family.</h2>
+          <h2>Speak with a solicitor who stays close to your family.</h2>
           <p>
             Book a confidential consultation today and let Goldstein Law guide
-            you forward.
+            you through everyday legal decisions.
           </p>
         </div>
         <a className="primary" href="mailto:Rupert@Goldsteinlaw.uk">
