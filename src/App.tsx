@@ -92,7 +92,7 @@ export default function App() {
           <div className="section-heading">
             <h2>Everyday legal services crafted around you</h2>
             <p>
-              We offer ongoing guidance across the full range of family matters.
+              We offer ongoing guidance across the full range of matters.
               From purchases and finances to day-to-day legal questions, Goldstein
               Law stays alongside your family for the long term.
             </p>
